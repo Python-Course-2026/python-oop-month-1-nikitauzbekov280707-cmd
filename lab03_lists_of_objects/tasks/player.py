@@ -5,4 +5,4 @@ class Player:
         self.score = 0
 
     def add_score(self, points: int):
-        pass
+        self.score+=points

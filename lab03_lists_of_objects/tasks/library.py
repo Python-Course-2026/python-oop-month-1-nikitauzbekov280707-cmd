@@ -4,4 +4,4 @@ class Library:
         self.books = []
 
     def add_book(self, title: str):
-        pass
+        self.books.append(title)

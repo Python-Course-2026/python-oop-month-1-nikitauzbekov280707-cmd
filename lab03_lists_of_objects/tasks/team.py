@@ -5,4 +5,4 @@ class Team:
         self.members = []
 
     def join(self, person_name: str):
-        pass
+        self.members.append(person_name)

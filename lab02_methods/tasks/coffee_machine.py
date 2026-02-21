@@ -6,4 +6,6 @@ class CoffeeMachine:
 
     def make_coffee(self):
         """Нужно 200мл воды и 20г зерен. Вернуть 'OK' или 'Error'"""
-        pass
+        if self.water == 200 and self.beans == 20:
+            return 'OK'
+        else: return 'Error'

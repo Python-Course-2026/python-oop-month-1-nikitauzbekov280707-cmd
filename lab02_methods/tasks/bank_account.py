@@ -8,4 +8,7 @@ class BankAccount:
 
     def withdraw(self, amount: int):
         """Снимает только если достаточно средств"""
-        pass
+        if self.balance-amount<0:
+            print('Недостаточно средств')
+        else:
+            self.balance-=amount
